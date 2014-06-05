@@ -1,0 +1,81 @@
+ html
+{
+	height:100%;
+	width:100%;
+	background-image: -webkit-linear-gradient(top, white, #268000);
+	background-image: -moz-linear-gradient(top, rgb(255,255,255) 24%, rgb(38,128,0) 62%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#268000');
+    background-repeat:no-repeat !important;
+}
+
+
+*
+{
+	margin:0;
+	padding:0;
+	font-family: 'Oxygen', sans-serif;
+	color:black;
+}
+
+header
+{
+	width:100%;
+	height:5%;
+	background-image:url("img/header.png");
+	
+}
+
+#logo
+{
+    margin-left: auto;
+	margin-right: auto;
+	width: 30%
+}
+
+#gameboard
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height:600px;
+	background-image:url("img/grid.png");
+}
+
+
+.square
+{
+    margin: 0 ;
+    width:200px;
+    height:200px;
+    background-color:transparent;
+    float:left; 
+    
+}
+.square:hover 
+{
+    background-color: yellow;
+    opacity:0.2;
+    filter: alpha(opacity=20);
+}
+
+.clear 
+{
+    clear:both;
+}
+
+
+#rules
+{
+    margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+#footer
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:100px;
+	background-image:url("img/gold.png");
+}
